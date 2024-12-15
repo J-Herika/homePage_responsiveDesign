@@ -3,6 +3,7 @@ body {
   display: grid;
   grid-template-rows: repeat(3, 1f);
   gap: 5rem;
+  justify-content: center;
 }
 img {
   width: 16px;
@@ -114,4 +115,38 @@ img {
 }
 h4 {
   font-size: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+.footer-contact {
+  display: flex;
+  gap: 1rem;
+}
+.footer-text > h5 {
+  font-size: 3rem;
+}
+.footer-text > p {
+  font-size: 1.1rem;
+}
+.social{
+  display: flex;
+  gap: 1rem;
+}
+.social > img{
+  width: 2rem;
+}
+.profile-img-footer{
+  width: 30rem;
 }
