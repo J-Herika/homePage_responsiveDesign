@@ -1,5 +1,5 @@
-.profile-img {
-  width: 300px;
+img {
+  width: 16px;
 }
 
 section .photo {
@@ -7,6 +7,51 @@ section .photo {
   height: 250px;
   background-color: aliceblue;
 }
-img {
-  width: 16px;
+
+.profile-img {
+  width: 600px;
+}
+
+.header-container {
+  display: flex;
+  padding: 2rem 0;
+  background-color: aliceblue;
+  justify-content: center;
+}
+.header-img {
+  position: relative;
+  text-align: center;
+}
+.header-img h1 {
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  left: 10%;
+
+  font-size: 5rem;
+  color: white;
+}
+.header-title {
+  font-size: 3.5rem;
+}
+.header-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 60vh;
+  background-color: cornflowerblue;
+  padding: 0.8rem 2rem 0.8rem 4rem;
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.header-links-section {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.header-links-section > img {
+  width: 3rem;
 }
